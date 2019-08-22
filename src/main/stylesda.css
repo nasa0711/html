@@ -1,0 +1,117 @@
+p {
+    color: magenta;
+}
+
+h1 {
+    color: black;
+}
+
+
+#reset {
+    color: red
+}
+
+#phone {
+    color: red;
+    background-color: aliceblue;
+}
+
+#name {
+    color: red;
+    background-color: aliceblue;
+}
+
+#age {
+    color: red;
+    background-color: aliceblue;
+}
+
+#address {
+    color: red;
+    background-color: aliceblue;
+}
+
+#email {
+    color: red;
+    background-color: aliceblue;
+}
+
+#Yes {
+    color: green;
+    background-color: green
+}
+
+#No {
+    color: green;
+    background-color: green
+}
+
+#reset {
+    shape-image-threshold: initial;
+}
+
+#phone {
+    color: crimson
+}
+
+.my-class {
+    align-items: initial;
+    align-content: initial;
+    align-content: flex-end;
+}
+
+lebel {
+    padding: 25px 50px 75px 100px;
+}
+
+
+[name="question1"] {
+    margin: 25px
+}
+
+button {
+    width: 75px;
+    height: 50px;
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;;
+}
+
+button:nth-child(2n):hover {
+    background-color: yellow;
+    color: red;
+    text-decoration: ButtonText;
+    font-weight: normal;
+    font-family: "Comic Sans MS";
+}
+
+form {
+    color: red;
+}
+
+table {
+    border: 4px dashed black;
+    display: block;
+}
+
+#divids {
+    margin: 15px 50% 40px 10%;
+}
+
+#duration {
+    background-color: #49ff0d
+}
+
+#div2 {
+    margin: 50%;
+}
+
+@media (max-width: 800px) {
+    div {
+        width: 20px;
+        height: 50px;
+        background-color: red;
+
+    }
+}

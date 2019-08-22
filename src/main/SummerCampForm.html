@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Summer camp details</title>
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="./stylesda.css">
+    </head>
+
+<body>
+<div>
+    <form>
+        <label for="name">Name</label>
+        <input required type="text" name="Name" id="name"/><br><br>
+        <label for="age">Age</label>
+        <input min="5" type="number" name="Age" id="age"/><br><br>
+        <label for="address">Adddress</label>
+        <input class="my-class" type="text" name="Address" id="address"/><br><br>
+        <label for="phone">Phone</label>
+        <input required type="text" name="Phone" id="phone"/><br><br>
+        <label for="email">Email</label>
+        <input required type="email" name="Email" id="email"/><br><br>
+
+        <label for="duration">How long you want to stay</label>
+        <select id="duration">
+            <option>1 week</option>
+            <option>1 month</option>
+            <option>1 day</option>
+            <option selected>1 year</option>
+            <option>2 year</option>
+        </select>
+        <p>Do you have any friends?</p>
+        <label for="Yes">Yes</label>
+        <input type="radio" name="question1" id="Yes"/>
+        <label for="No">No</label>
+        <input type="radio" name="question1" id="No"/><br>
+        <button>Submit</button>
+        <button type="reset" value="Reset" id="reset">Reset</button>
+    </form>
+    <div>
+        <p>This is table block</p>
+        <table id="divids">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+                <th>Age</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Senthil</td>
+                <td>Pärnu</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td><strong>Jayvin</strong></td>
+                <td><b>Colombo</b></td>
+                <td>8</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+</body>
+</html>
